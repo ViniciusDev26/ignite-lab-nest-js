@@ -1,5 +1,5 @@
 import { Body, Controller, Post } from '@nestjs/common';
-import { SendNotificationService } from 'src/domain/services/SendNotificationService';
+import { SendNotificationService } from '@domain/services/SendNotificationService';
 
 import { CreateNotificationDTO } from '../dtos/create-notification.dto';
 

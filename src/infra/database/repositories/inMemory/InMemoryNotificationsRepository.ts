@@ -1,5 +1,5 @@
-import { Notification } from 'src/domain/entities/Notification';
-import { NotificationsRepository } from '../../../../domain/contracts/repositories/NotificationsRepository';
+import { Notification } from '@domain/entities/Notification';
+import { NotificationsRepository } from '@domain/contracts/repositories/NotificationsRepository';
 
 export class InMemoryNotificationsRepository
   implements NotificationsRepository

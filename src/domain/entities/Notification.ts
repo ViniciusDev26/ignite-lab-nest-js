@@ -1,4 +1,4 @@
-import { Replace } from 'src/@types/helpers/Replace';
+import { Replace } from '@shared/helpers/types/Replace';
 import { Content } from '../valueObjects/notifications/content';
 
 export interface NotificationProps {

@@ -1,6 +1,6 @@
-import { UUIDGenerator } from '../../../src/domain/contracts/gateways/uuid';
-import { UUIDGeneratorMock } from '../../../test/mocks/UUIDGenerator.mock';
-import { InMemoryNotificationsRepository } from '../../infra/database/repositories/inMemory/InMemoryNotificationsRepository';
+import { UUIDGenerator } from '@domain/contracts/gateways/uuid';
+import { UUIDGeneratorMock } from '@test/mocks/UUIDGenerator.mock';
+import { InMemoryNotificationsRepository } from '@infra/database/repositories/inMemory/InMemoryNotificationsRepository';
 import { Notification } from '../entities/Notification';
 import {
   SendNotificationParams,
