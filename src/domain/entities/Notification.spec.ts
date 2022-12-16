@@ -11,5 +11,9 @@ describe('Notification', () => {
     });
 
     expect(notification).toBeInstanceOf(Notification);
+    expect(notification.id).toBe('anyId');
+    expect(notification.content.value).toBe('any content value');
+    expect(notification.category).toBe('social');
+    expect(notification.readAt).toEqual(undefined);
   });
 });

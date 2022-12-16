@@ -18,12 +18,13 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true,
     "paths": {
       "@app/*": ["./src/app/*"],
       "@domain/*": ["./src/domain/*"],
       "@infra/*": ["./src/infra/*"],
       "@shared/*": ["./src/shared/*"],
-      "@test/*": ["./test/*"],
+      "@test/*": ["./test/*"]
     }
   }
 }
